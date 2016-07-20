@@ -5,20 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import java.sql.SQLOutput;
-
-public class MainActivity extends AppCompatActivity {
+public class LinearActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_linear);
     }
 
-    public void doMagic(View view) {
-        System.out.println("Hello World!!");
-
-        Intent intent = new Intent(this, LinearActivity.class);
+    public void doMagic2(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
