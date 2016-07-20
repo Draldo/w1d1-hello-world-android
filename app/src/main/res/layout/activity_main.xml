@@ -10,7 +10,20 @@
     tools:context="com.example.draldo.helloworld.MainActivity">
 
     <TextView
+        android:id="@+id/a_main_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello Aldo" />
+
+    <Button
+        android:id="@+id/a_main_btn1"
+        android:layout_below="@id/a_main_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a_main_btn1" />
+
 </RelativeLayout>
